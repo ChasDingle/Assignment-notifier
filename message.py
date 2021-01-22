@@ -2,7 +2,7 @@
 import smtplib
 
 EMAIL_ADDRESS = 'dinglechas@gmail.com'
-EMAIL_PASSWORD = 'gH0st567'
+EMAIL_PASSWORD = 'password here'
 
 #sets up a port 587 in this case is needed or otherwise the SMTP server will shut down
 with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
